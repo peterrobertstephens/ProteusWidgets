@@ -8,7 +8,7 @@
 
 		<i class="fa  <?php echo esc_attr( $instance['icon'] ); ?>  fa-3x"></i>
 		<div class="icon-box__text">
-			<h4 class="icon-box__title"><?php echo wp_kses_post( $instance['title'] ); ?></h4>
+			<p class="icon-box__title"><?php echo wp_kses_post( $instance['title'] ); ?></p>
 			<span class="icon-box__subtitle"><?php echo wp_kses_post( $instance['text'] ); ?></span>
 		</div>
 
