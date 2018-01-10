@@ -2,11 +2,11 @@
 
 // Path/URL to root of this composer package, without trailing slash
 if ( ! defined( 'PW_PATH' ) ) {
-	define( 'PW_PATH', apply_filters( 'pw/dir_path', get_template_directory() . '/vendor/proteusthemes/proteuswidgets' ) );
+	define( 'PW_PATH', apply_filters( 'pw/dir_path', get_template_directory() . '/vendor/peterrobertstephens/proteuswidgets' ) );
 }
 
 if ( ! defined( 'PW_URL' ) ) {
-	define( 'PW_URL', apply_filters( 'pw/dir_url', get_template_directory_uri() . '/vendor/proteusthemes/proteuswidgets' ) );
+	define( 'PW_URL', apply_filters( 'pw/dir_url', get_template_directory_uri() . '/vendor/peterrobertstephens/proteuswidgets' ) );
 }
 
 /**
